@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace EarnieJr.Controls
+namespace XamCal.Abstractions
 {
     public class Day
     {

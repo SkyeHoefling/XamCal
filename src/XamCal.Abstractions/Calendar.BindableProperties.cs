@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace EarnieJr.Controls
+namespace XamCal.Abstractions
 {
     public partial class Calendar : ContentView
     {

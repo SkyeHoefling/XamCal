@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XamCalRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamCal.Abstractions\XamCal.Abstractions.csproj">
