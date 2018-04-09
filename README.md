@@ -8,7 +8,7 @@ A Calendar Control for Xamarin.Forms
 
 ## Build
 
-* [![Build status](https://ci.appveyor.com/api/projects/status/eqdh0b3479m2lf40?svg=true)](https://ci.appveyor.com/project/ahoefling/circlebuttonmenu)
+* [![Build status](https://ci.appveyor.com/api/projects/status/80oprj0yo239p5ek?svg=true)](https://ci.appveyor.com/project/ahoefling/xamcal)
 * CI NuGet Feed: [https://ci.appveyor.com/nuget/XamCal](https://ci.appveyor.com/nuget/XamCal)
     
 ### Platform Support
@@ -16,8 +16,8 @@ CircleButtonMenu is available for use in the following supported platforms.
 
 | Platform         | Supported | Version     |
 |------------------|-----------|-------------|
-| Xamarin.Android  | Yes       | TBD +    |
-| Xamarin.iOS      | Yes       | TBD +    |
+| Xamarin.Android  | Yes       | TBD +       |
+| Xamarin.iOS      | Yes       | TBD +       |
 
 
 ## Usage ##
