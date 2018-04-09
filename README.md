@@ -3,13 +3,13 @@ A Calendar Control for Xamarin.Forms
 
 ## Setup
 
-* Available on NuGet: [![NuGet](https://img.shields.io/nuget/v/CircleButtonMenu.svg?label=NuGet)](https://www.nuget.org/packages/CircleButtonMenu)
+* Available on NuGet: [![NuGet](https://img.shields.io/nuget/v/XamCal.svg?label=NuGet)](https://www.nuget.org/packages/XamCal)
 * Install into your PCL/.NET Standard and Client Projects
 
 ## Build
 
 * [![Build status](https://ci.appveyor.com/api/projects/status/eqdh0b3479m2lf40?svg=true)](https://ci.appveyor.com/project/ahoefling/circlebuttonmenu)
-* CI NuGet Feed: [https://ci.appveyor.com/nuget/CircleButtonMenu](https://ci.appveyor.com/nuget/CircleButtonMenu)
+* CI NuGet Feed: [https://ci.appveyor.com/nuget/XamCal](https://ci.appveyor.com/nuget/XamCal)
     
 ### Platform Support
 CircleButtonMenu is available for use in the following supported platforms.

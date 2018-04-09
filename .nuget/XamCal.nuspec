@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>XamCal</id>
+    <version>$version$</version>
+    <title>A Calendar control for Xamarin.Forms</title>
+    <authors>Andrew Hoefling</authors>
+    <owners>Andrew Hoefling</owners>
+    <licenseUrl>https://github.com/ahoefling/XamCal/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ahoefling/XamCal</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Xamarin.Form control for creating a calendar.</description>
+    <summary>A Calendar control for Xamarin.Forms</summary>
+    <releaseNotes>For changelog go to: https://github.com/ahoefling/XamCal/blob/master/CHANGELOG.md</releaseNotes>
+    <tags>Xamarin.Forms, Calendar, Control</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid">
+        <dependency id="Xamarin.Forms" version="2.5.0.77107"/>
+      </group>
+      <group targetFramework="Xamarin.iOS10">
+        <dependency id="Xamarin.Forms" version="2.5.0.77107"/>
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- shared -->
+    <file src="..\src\XamCal.Abstractions\bin\Release\netstandard1.0\XamCal.Abstractions.*" target="lib\netstandard1.0" />
+    
+    <!-- iOS -->
+    <file src="..\src\XamCal.iOS\bin\Release\XamCal.*" target="lib\Xamarin.iOS10" />
+    
+    <!-- Android -->
+    <file src="..\src\XamCal.Android\bin\Release\XamCal.*" target="lib\MonoAndroid10" />
+  </files>
+</package>
