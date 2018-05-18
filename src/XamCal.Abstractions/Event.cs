@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace XamCal.Abstractions
 {
     public class Event

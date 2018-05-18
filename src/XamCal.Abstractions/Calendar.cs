@@ -51,7 +51,8 @@ namespace XamCal.Abstractions
                 var view = CreateView(new Day(date, events));
 
                 var column = (int)date.DayOfWeek;
-                if (day > 0 && date.DayOfWeek == DayOfWeek.Sunday) {
+                if (day > 0 && date.DayOfWeek == DayOfWeek.Sunday)
+                {
                     row++;
                 }
 

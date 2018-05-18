@@ -19,13 +19,13 @@ namespace XamCal.Abstractions
         }
 
         public DateTime Date { get; set; }
-        public int DayOfMonth 
+        public int DayOfMonth
         {
             get { return Date.Day; }
         }
 
         public IEnumerable<Event> Events { get; set; }
-        public bool HasEvents 
+        public bool HasEvents
         {
             get { return Events != null && Events.Any(); }
         }
