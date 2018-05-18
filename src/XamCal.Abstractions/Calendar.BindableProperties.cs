@@ -64,9 +64,10 @@ namespace XamCal.Abstractions
 
         public static readonly BindableProperty EventsProperty = BindableProperty.Create(
             nameof(Events),
-            typeof(IEnumerable<Event>),     
+            typeof(IEnumerable<Event>),
             typeof(Calendar),
             null,
+            BindingMode.TwoWay,
             propertyChanged: OnEventsPropertyChanged);
 
         private static void OnEventsPropertyChanged(BindableObject bindable, object oldValue, object newValue)
