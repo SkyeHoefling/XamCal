@@ -48,9 +48,14 @@ TODO show other usages
 
 ## Bindable Properties
 
-| Property          | Description                                     | Default Value              |
-|-------------------|-------------------------------------------------|----------------------------|
-| TBD               | TBD                                             | `TBD`                      |
+| Property          | Type                 | Description                                                 |
+|-------------------|----------------------|-------------------------------------------------------------|
+| Month             | `int`                | The current month to render                                 |
+| Year              | `int`                | The current year to render                                  |
+| Events            | `IEnumerable<Event>` | The events for the selected month/year                      |
+| DayTemplate       | `DataTemplate`       | A `DataTemplate` that will render for each day of the month |
+| DaySelected       | `ICommand`           | The `ICommand` to execute when the user taps on a day       |
+
 
 ## Created By: [@Andrew_Hoefling](https://twitter.com/andrew_hoefling)
 
