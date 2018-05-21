@@ -38,7 +38,7 @@ namespace XamCal.Abstractions
 
         private void Redraw()
         {
-            if (Year <= 0 || Month <= 0) return;
+            if (Year <= 0 || Month <= 0 || DayTemplate == null) return;
 
             var daysInMonth = DateTime.DaysInMonth(Year, Month);
             _grid.Children.Clear();
