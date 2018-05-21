@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CCEC549A-BBA5-49C6-BC4D-6095AB5275EE}</ProjectGuid>
+    <ProjectGuid>{26DF7AF3-F254-4F3C-B2B6-DF405E025204}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -147,12 +147,15 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
+    <PackageReference Include="Xamarin.Forms" Version="2.5.0.77107" />
+    <PackageReference Include="XamCal">
+      <Version>1.0.9</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\SampleCal\SampleCal.csproj">
-      <Project>{7CCD249C-A7D9-4C31-938A-2AFA68D22B0B}</Project>
+      <Project>{005D2428-2EFA-47C5-B4B9-27B5D557959E}</Project>
       <Name>SampleCal</Name>
     </ProjectReference>
   </ItemGroup>

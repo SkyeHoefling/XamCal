@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using XamCal.Android;
 
 namespace SampleCal.Droid
 {
@@ -19,6 +20,7 @@ namespace SampleCal.Droid
 
             base.OnCreate(bundle);
 
+            XamCalRenderer.Init();
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }

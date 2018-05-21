@@ -2,13 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SampleCal"
+             xmlns:xc="clr-namespace:XamCal.Abstractions;assembly=XamCal.Abstractions"
              x:Class="SampleCal.MainPage">
-
+    
     <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <xc:Calendar Year="2018"
+                     Month="5">
+            <xc:Calendar.DayTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Label Text="{Binding DayOfMonth}" />
+                    </StackLayout>
+                </DataTemplate>
+            </xc:Calendar.DayTemplate>
+        </xc:Calendar>
     </StackLayout>
 
 </ContentPage>
