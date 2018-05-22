@@ -1,6 +1,8 @@
 # Calendar Control for Xamarin.Forms
 A Calendar Control for Xamarin.Forms
 
+![Sample Project](/images/sample.png)
+
 ## Setup
 
 * Available on NuGet: [![NuGet](https://img.shields.io/nuget/v/XamCal.svg?label=NuGet)](https://www.nuget.org/packages/XamCal)
